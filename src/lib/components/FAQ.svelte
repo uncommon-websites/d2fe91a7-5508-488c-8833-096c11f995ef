@@ -7,13 +7,13 @@
   }
 
   const faqs: FAQItem[] = [
-    { question: "Do I have to trust the lead investor with my investment?", answer: "Details about trust and lead investors..." },
-    { question: "How does Echo work?", answer: "Echo works by connecting..." },
-    { question: "I want to share my deals. Can I start a group?", answer: "Yes, you can start a group by..." },
-    { question: "I'm a founder. How do I raise money from Echo?", answer: "Founders can raise money by..." },
-    { question: "Is everyone eligible to use Echo?", answer: "Eligibility depends on..." },
-    { question: "Why do founders raise from Echo groups?", answer: "Founders choose Echo because..." },
-    { question: "Why would someone share their deals with me?", answer: "Sharing deals allows for..." }
+    { question: "How do I launch a token on Bags?", answer: "To launch a token on Bags, you'll need to create an account, upload your token image and details, set up your fee sharing structure (if desired), and make an initial buy. We recommend a minimum 0.5 SOL initial purchase to prevent snipers. The platform guides you through each step of the process." },
+    { question: "How does the fee sharing system work?", answer: "Bags allows you to distribute trading fees to up to 100 accounts. You can upload a CSV file with wallet addresses and percentage allocations. As your token is traded, fees are automatically distributed according to your specified percentages. This enables revenue sharing with team members, communities, or causes." },
+    { question: "How much can creators earn?", answer: "Creator earnings vary based on token trading volume. Our platform has paid out over $21 million to creators total. Top performing tokens like NYAN have generated over $380K in creator earnings, while BTH has earned $367K. Earnings come from ongoing trading fees, creating a sustainable revenue stream." },
+    { question: "What blockchain does Bags use?", answer: "Bags is built on Solana blockchain, offering fast transaction speeds and low fees. We integrate with major Solana DEXs including Jupiter, Photon, and Axiom, and use the Meteora DLMM Program for liquidity management." },
+    { question: "Can I use Bags on mobile?", answer: "Yes! Bags is available on iOS, Android, and web. Our mobile-first approach makes it easy to launch and manage your tokens from anywhere. Wallet integration is handled through Privy for seamless onboarding." },
+    { question: "What types of tokens can I create?", answer: "Bags supports various token types including meme coins, creator tokens, social cause tokens, and community tokens. Notable examples include celebrity tokens (MrBeast, Drake Bell), charitable tokens (F*CK CANCER), and iconic meme collaborations (Nyan Cat, Pepe by Matt Furie)." },
+    { question: "Is there support available?", answer: "Yes, we offer support through our Discord community server and dedicated support portal at support.bags.fm. Our community is active and helpful, and we provide documentation at docs.bags.fm for technical integration questions." }
   ];
 
   let openIndex: number | null = null;
